@@ -53,7 +53,7 @@
         max-width: 100%;
         max-height: 100%;
         position: absolute;
-        filter: saturate(0) ;
+        filter: saturate(0);
         transform: translate(-50%, -50%);
         top: 50%;
         left: 50%;
@@ -83,6 +83,12 @@
       .pin {
         width: 1.5vw;
         transform: translate(-0.3vw, -0.1vw);
+      }
+
+      .short-company {
+        border: 3px solid #2eb78b;
+        padding: 12px;
+        border-radius: 20px;
       }
 
       .company h3 {
@@ -186,6 +192,7 @@
     <div class="col-10 col-sm-10 col-md-8 col-lg-5 col-xl-5 row mx-auto mt-4">
       <div class="col">
         <a
+          target="_blank"
           href="https://skillshop.exceedlms.com/student/award/W8ezhhVvHfZAZ8Ro4NcRXXc7"
         >
           <picture>
@@ -200,6 +207,7 @@
       </div>
       <div class="col">
         <a
+          target="_blank"
           href="https://skillshop.exceedlms.com/student/award/3bL41Xn59REsg8q7RvefxUqe"
         >
           <picture>
@@ -214,6 +222,7 @@
       </div>
       <div class="col">
         <a
+          target="_blank"
           href="https://skillshop.exceedlms.com/student/award/31fewbMm8UDV9rxs478chyNv"
         >
           <picture>
@@ -273,103 +282,228 @@
         "
       ></div>
     </h1>
+
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 col-12 mx-auto">
       <div class="company mx-auto">
-        <div class="company-card mx-auto">
-          <picture>
-            <source srcset="static/tsn.webp" type="image/webp" />
-            <source srcset="static/tsn.jpg" type="image/jpeg" />
-            <img alt="TheSkillsNetwork logo" src="static/tsn.jpg" />
-          </picture>
-        </div>
-        <div class="text-center">
-          <h3>The Skills Network</h3>
-          <h6>
+        <a target="_blank" href="static/pdfs/theskillsnetwork.pdf">
+          <div class="company-card mx-auto">
             <picture>
-              <source srcset="static/pin.webp" type="image/webp" />
-              <source srcset="static/pin.png" type="image/png" />
-              <img
-                alt="Geo-location ping icon"
-                src="static/pin.png"
-                class="pin"
-              /> </picture
-            >United Kingdom
-          </h6>
-        </div>
-      </div>
-
-      <div class="company mx-auto">
-        <div class="company-card mx-auto">
-          <picture>
-            <source srcset="static/cl.webp" type="image/webp" />
-            <source srcset="static/cl.jpg" type="image/jpeg" />
-            <img alt="Charterhouse Lombard logo" src="static/cl.jpg" />
-          </picture>
-        </div>
-        <div class="text-center">
-          <h3>Charterhouse Lombard</h3>
-          <h6>
-            <picture>
-              <source srcset="static/pin.webp" type="image/webp" />
-              <source srcset="static/pin.png" type="image/png" />
-              <img
-                alt="Geo-location ping icon"
-                src="static/pin.png"
-                class="pin"
-              /> </picture
-            >United Kingdom | UAE
-          </h6>
-        </div>
-      </div>
-
-      <div class="company mx-auto">
-        <div class="company-card mx-auto">
-          <picture>
-            <source srcset="static/jw.webp" type="image/webp" />
-            <source srcset="static/jw.jpg" type="image/jpeg" />
-            <img alt="Jericho Writers logo" src="static/jw.jpg" />
-          </picture>
-        </div>
-        <div class="text-center">
-          <h3>Jericho Writers</h3>
-          <h6>
-            <picture>
-              <source srcset="static/pin.webp" type="image/webp" />
-              <source srcset="static/pin.png" type="image/png" />
-              <img
-                alt="Geo-location ping icon"
-                src="static/pin.png"
-                style="transform: translate(0, -0.1vw)"
-                class="pin"
-              />
+              <source srcset="static/tsn.webp" type="image/webp" />
+              <source srcset="static/tsn.jpg" type="image/jpeg" />
+              <img alt="TheSkillsNetwork logo" src="static/tsn.jpg" />
             </picture>
-            United Kingdom
-          </h6>
-        </div>
+          </div>
+          <div class="text-center">
+            <h3>The Skills Network</h3>
+            <h6>
+              <picture>
+                <source srcset="static/pin.webp" type="image/webp" />
+                <source srcset="static/pin.png" type="image/png" />
+                <img
+                  alt="Geo-location ping icon"
+                  src="static/pin.png"
+                  class="pin"
+                /> </picture
+              >United Kingdom
+            </h6>
+          </div>
+        </a>
       </div>
 
       <div class="company mx-auto">
-        <div class="company-card mx-auto">
-          <picture>
-            <source srcset="static/cac.webp" type="image/webp" />
-            <source srcset="static/cac.jpg" type="image/jpeg" />
-            <img alt="Cars and Classic logo" src="static/cac.jpg" />
-          </picture>
-        </div>
-        <div class="text-center">
-          <h3>Car & Classic</h3>
-          <h6>
+        <a target="_blank" href="static/pdfs/charterhouselombard.pdf">
+          <div class="company-card mx-auto">
             <picture>
-              <source srcset="static/pin.webp" type="image/webp" />
-              <source srcset="static/pin.png" type="image/png" />
-              <img
-                alt="Geo-location ping icon"
-                src="static/pin.png"
-                class="pin"
-              /> </picture
-            >United Kingdom
-          </h6>
-        </div>
+              <source srcset="static/cl.webp" type="image/webp" />
+              <source srcset="static/cl.jpg" type="image/jpeg" />
+              <img alt="Charterhouse Lombard logo" src="static/cl.jpg" />
+            </picture>
+          </div>
+          <div class="text-center">
+            <h3>Charterhouse Lombard</h3>
+            <h6>
+              <picture>
+                <source srcset="static/pin.webp" type="image/webp" />
+                <source srcset="static/pin.png" type="image/png" />
+                <img
+                  alt="Geo-location ping icon"
+                  src="static/pin.png"
+                  class="pin"
+                /> </picture
+              >United Kingdom | UAE
+            </h6>
+          </div>
+        </a>
+      </div>
+
+      <div class="company mx-auto">
+        <a target="_blank" href="static/pdfs/jerichowriters.pdf">
+          <div class="company-card mx-auto">
+            <picture>
+              <source srcset="static/jw.webp" type="image/webp" />
+              <source srcset="static/jw.jpg" type="image/jpeg" />
+              <img alt="Jericho Writers logo" src="static/jw.jpg" />
+            </picture>
+          </div>
+          <div class="text-center">
+            <h3>Jericho Writers</h3>
+            <h6>
+              <picture>
+                <source srcset="static/pin.webp" type="image/webp" />
+                <source srcset="static/pin.png" type="image/png" />
+                <img
+                  alt="Geo-location ping icon"
+                  src="static/pin.png"
+                  style="transform: translate(0, -0.1vw)"
+                  class="pin"
+                />
+              </picture>
+              United Kingdom
+            </h6>
+          </div>
+        </a>
+      </div>
+
+      <div class="company mx-auto">
+        <a target="_blank" href="static/pdfs/carandclassic.pdf">
+          <div class="company-card mx-auto">
+            <picture>
+              <source srcset="static/cac.webp" type="image/webp" />
+              <source srcset="static/cac.jpg" type="image/jpeg" />
+              <img alt="Cars and Classic logo" src="static/cac.jpg" />
+            </picture>
+          </div>
+          <div class="text-center">
+            <h3>Car & Classic</h3>
+            <h6>
+              <picture>
+                <source srcset="static/pin.webp" type="image/webp" />
+                <source srcset="static/pin.png" type="image/png" />
+                <img
+                  alt="Geo-location ping icon"
+                  src="static/pin.png"
+                  class="pin"
+                /> </picture
+              >United Kingdom
+            </h6>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <h1
+      class="text-center mx-auto"
+      style="font-size: 6rem; margin-top: 3vw; margin-bottom: 3vw"
+    >
+      Short Audits
+      <div
+        style="
+          width: 38%;
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%) translateY(-190%);
+          background-color: rgba(46, 183, 139, 0.5);
+          height: 0.9vw;
+          border-radius: 10px;
+          margin-top: 1vw;
+        "
+      ></div>
+    </h1>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 col-12 mx-auto">
+      <div class="company mx-auto">
+        <a target="_blank" href="static/pdfs/editsuits.pdf">
+          <div class="text-center short-company">
+            <h3>Edit Suit Co.</h3>
+            <h6>
+              <picture>
+                <source srcset="static/pin.webp" type="image/webp" />
+                <source srcset="static/pin.png" type="image/png" />
+                <img
+                  alt="Geo-location ping icon"
+                  src="static/pin.png"
+                  class="pin"
+                /> </picture
+              >United Kingdom
+            </h6>
+          </div></a
+        >
+      </div>
+      <div class="company mx-auto">
+        <a target="_blank" href="static/pdfs/nivoda.pdf">
+          <div class="text-center short-company">
+            <h3>Nivoda</h3>
+            <h6>
+              <picture>
+                <source srcset="static/pin.webp" type="image/webp" />
+                <source srcset="static/pin.png" type="image/png" />
+                <img
+                  alt="Geo-location ping icon"
+                  src="static/pin.png"
+                  class="pin"
+                /> </picture
+              >United Kingdom
+            </h6>
+          </div></a
+        >
+      </div>
+
+      <div class="company mx-auto">
+        <a target="_blank" href="static/pdfs/arla.pdf">
+          <div class="text-center short-company">
+            <h3>Arla</h3>
+            <h6>
+              <picture>
+                <source srcset="static/pin.webp" type="image/webp" />
+                <source srcset="static/pin.png" type="image/png" />
+                <img
+                  alt="Geo-location ping icon"
+                  src="static/pin.png"
+                  class="pin"
+                /> </picture
+              >Denmark
+            </h6>
+          </div></a
+        >
+      </div>
+
+      <div class="company mx-auto">
+        <a target="_blank" href="static/pdfs/beauhurst.pdf">
+          <div class="text-center short-company">
+            <h3>Beauhurst</h3>
+            <h6>
+              <picture>
+                <source srcset="static/pin.webp" type="image/webp" />
+                <source srcset="static/pin.png" type="image/png" />
+                <img
+                  alt="Geo-location ping icon"
+                  src="static/pin.png"
+                  class="pin"
+                /> </picture
+              >United Kingdom
+            </h6>
+          </div></a
+        >
+      </div>
+
+      <div class="company mx-auto">
+        <a target="_blank" href="static/pdfs/john.pdf">
+          <div class="text-center short-company">
+            <h3>John Clark Motor</h3>
+            <h6>
+              <picture>
+                <source srcset="static/pin.webp" type="image/webp" />
+                <source srcset="static/pin.png" type="image/png" />
+                <img
+                  alt="Geo-location ping icon"
+                  src="static/pin.png"
+                  class="pin"
+                /> </picture
+              >United Kingdom
+            </h6>
+          </div></a
+        >
       </div>
     </div>
   </body>
