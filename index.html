@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-
     <style>
       a,
       div,
@@ -35,29 +32,23 @@
         overflow-x: hidden;
       }
     </style>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
     <title>Oleksii Shereta - SEO Expert</title>
-
     <style>
       .company-card img {
         max-width: 100%;
         max-height: 100%;
-
         position: absolute;
         transform: translate(-50%, -50%);
         top: 50%;
         left: 50%;
-
         padding: 1.5vw;
       }
 
@@ -81,6 +72,11 @@
         width: 30vw;
       }
 
+      .pin {
+        width: 1.5vw;
+        transform: translate(-0.3vw, -0.1vw);
+      }
+
       .company h3 {
         margin-top: 1vw;
         font-size: 2.6vw;
@@ -99,13 +95,21 @@
       }
 
       @media screen and (max-width: 768px) {
+        html {
+          font-size: 8px;
+        }
+
+        .pin {
+          width: 2.3vw;
+        }
+
         .company-card {
           height: 40vw;
           width: 70vw;
         }
 
         .company h3 {
-          margin-top: 2vw;
+          margin-top: 4rem;
           font-size: 5vw;
         }
 
@@ -125,12 +129,12 @@
 
         .company h3 {
           margin-top: 2vw;
-          font-size: 4vw;
+          font-size: 2rem;
         }
 
         .company h6 {
           margin-top: 0.2vw;
-          font-size: 2.5vw;
+          font-size: 1.5rem;
           font-weight: 200;
           margin-bottom: 4vw;
         }
@@ -143,49 +147,80 @@
   </head>
 
   <body class="container-fluid">
-    <h1 class="text-center" style="font-size: 6vw; margin-top: 3vw">
+    <h1 class="text-center" style="font-size: 9rem; margin-top: 3vw">
       Oleksii Shereta
     </h1>
-    <h2 class="text-center" style="font-size: 4.5vw; margin-top: 1vw">
+    <h2 class="text-center" style="font-size: 6rem; margin-top: 1vw">
       SEO Expert
     </h2>
-
     <h3
       class="text-center"
-      style="font-size: 2.4vw; margin-top: 4vw; font-weight: 300"
+      style="font-size: 3rem; margin-top: 4vw; font-weight: 300"
     >
       8 years of experience<br />Certified proffesional
     </h3>
-
-    <div class="col-12 col-sm-10 col-md-8 col-lg-5 col-xl-4 row mx-auto mt-4">
+    <div class="col-10 col-sm-10 col-md-8 col-lg-5 col-xl-4 row mx-auto mt-4">
       <div class="col">
-        <img
-          class="certificate"
-          src="static/Google Ads Display Certification _ Google.jpg"
-        />
+        <picture>
+          <source
+            srcset="static/google_ads_display_certification___google.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="static/google_ads_display_certification___google.jpg"
+            type="image/jpeg"
+          />
+          <img
+            class="certificate"
+            src="static/google_ads_display_certification___google.jpg"
+          />
+        </picture>
       </div>
       <div class="col">
-        <img
-          class="certificate"
-          src="static/Google Ads Search Certification _ Google.jpg"
-        />
+        <picture>
+          <source
+            srcset="static/google_ads_search_certification___google.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="static/google_ads_search_certification___google.jpg"
+            type="image/jpeg"
+          />
+          <img
+            class="certificate"
+            src="static/google_ads_search_certification___google.jpg"
+          />
+        </picture>
       </div>
       <div class="col">
-        <img
-          class="certificate"
-          src="static/Google Analytics Individual Qualification _ Google.jpg"
-        />
+        <picture>
+          <source
+            srcset="
+              static/google_analytics_individual_qualification___google.webp
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="
+              static/google_analytics_individual_qualification___google.jpg
+            "
+            type="image/jpeg"
+          />
+          <img
+            class="certificate"
+            src="static/google_analytics_individual_qualification___google.jpg"
+          />
+        </picture>
       </div>
     </div>
-
-    <h4 class="text-center" style="font-size: 2vw; margin-top: 3vw">
+    <h4 class="text-center" style="font-size: 2.4rem; margin-top: 3vw">
       <a target="_blank" href="mailto:oleksiishereta@yahoo.com"
         >oleksiishereta@yahoo.com</a
       ><br /><a target="_blank" href="mailto:alexshereta@yahoo.com"
         >alexshereta@yahoo.com</a
       >
     </h4>
-    <h4 class="text-center" style="font-size: 2vw; margin-top: 2.3vw">
+    <h4 class="text-center" style="font-size: 2.4rem; margin-top: 2.3vw">
       <a target="_blank" href="https://www.facebook.com/alex.casa.mentor"
         >Facebook</a
       ><br /><a
@@ -194,20 +229,18 @@
         >LinkedIn</a
       >
     </h4>
-
     <h1
       class="text-center mx-auto"
-      style="font-size: 5.3vw; margin-top: 3vw; margin-bottom: 3vw"
+      style="font-size: 6rem; margin-top: 3vw; margin-bottom: 3vw"
     >
       Deep Analysis
       <div
         style="
-          width: 33%;
+          width: 38%;
           text-align: center;
           position: absolute;
           left: 50%;
           transform: translateX(-50%) translateY(-190%);
-
           background-color: rgba(46, 183, 139, 0.5);
           height: 0.9vw;
           border-radius: 10px;
@@ -215,69 +248,85 @@
         "
       ></div>
     </h1>
-
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 col-12 mx-auto">
       <div class="company mx-auto">
         <div class="company-card mx-auto">
-          <img src="static/cac.jpg" />
+          <picture>
+            <source srcset="static/cac.webp" type="image/webp" />
+            <source srcset="static/cac.jpg" type="image/jpeg" />
+            <img src="static/cac.jpg" />
+          </picture>
         </div>
-
         <div class="text-center">
           <h3>Car & Classic</h3>
           <h6>
-            <img
-              src="static/pin.png"
-              style="width: 1.5vw; transform: translate(-0.3vw, -0.1vw)"
-            />United Kingdom
+            <picture>
+              <source srcset="static/pin.webp" type="image/webp" />
+              <source srcset="static/pin.png" type="image/png" />
+              <img src="static/pin.png" class="pin" /> </picture
+            >United Kingdom
           </h6>
         </div>
       </div>
-
       <div class="company mx-auto">
         <div class="company-card mx-auto">
-          <img src="static/tsn.jpg" />
+          <picture>
+            <source srcset="static/tsn.webp" type="image/webp" />
+            <source srcset="static/tsn.jpg" type="image/jpeg" />
+            <img src="static/tsn.jpg" />
+          </picture>
         </div>
-
         <div class="text-center">
           <h3>The Skills Network</h3>
           <h6>
-            <img
-              src="static/pin.png"
-              style="width: 1.5vw; transform: translate(-0.3vw, -0.1vw)"
-            />United Kingdom
+            <picture>
+              <source srcset="static/pin.webp" type="image/webp" />
+              <source srcset="static/pin.png" type="image/png" />
+              <img src="static/pin.png" class="pin" /> </picture
+            >United Kingdom
           </h6>
         </div>
       </div>
-
       <div class="company mx-auto">
         <div class="company-card mx-auto">
-          <img src="static/jw.jpg" />
+          <picture>
+            <source srcset="static/jw.webp" type="image/webp" />
+            <source srcset="static/jw.jpg" type="image/jpeg" />
+            <img src="static/jw.jpg" />
+          </picture>
         </div>
-
         <div class="text-center">
           <h3>Jericho Writers</h3>
           <h6>
-            <img
-              src="static/pin.png"
-              style="width: 1.5vw; transform: translate(0, -0.1vw)"
-            />
+            <picture>
+              <source srcset="static/pin.webp" type="image/webp" />
+              <source srcset="static/pin.png" type="image/png" />
+              <img
+                src="static/pin.png"
+                style="transform: translate(0, -0.1vw)"
+                class="pin"
+              />
+            </picture>
             United Kingdom
           </h6>
         </div>
       </div>
-
       <div class="company mx-auto">
         <div class="company-card mx-auto">
-          <img src="static/cl.jpg" />
+          <picture>
+            <source srcset="static/cl.webp" type="image/webp" />
+            <source srcset="static/cl.jpg" type="image/jpeg" />
+            <img src="static/cl.jpg" />
+          </picture>
         </div>
-
         <div class="text-center">
           <h3>Charterhouse Lombard</h3>
           <h6>
-            <img
-              src="static/pin.png"
-              style="width: 1.5vw; transform: translate(-0.3vw, -0.1vw)"
-            />United Kingdom | UAE
+            <picture>
+              <source srcset="static/pin.webp" type="image/webp" />
+              <source srcset="static/pin.png" type="image/png" />
+              <img src="static/pin.png" class="pin" /> </picture
+            >United Kingdom | UAE
           </h6>
         </div>
       </div>
